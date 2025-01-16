@@ -1,15 +1,19 @@
 
-import './App.css'
-import {Button} from "@/components/ui/button.tsx";
+
+
+import Dashboard from "@/Dashboard.tsx";
 
 function App() {
 
 
-    return (
-        <div>
-            <Button>Click me</Button>
-        </div>
-    )
+  return (
+    <>
+      <div>
+          <Dashboard/>
+
+      </div>
+    </>
+  )
 }
 
 export default App
