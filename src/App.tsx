@@ -1,6 +1,3 @@
-
-
-
 import Dashboard from "@/Dashboard.tsx";
 
 function App() {
@@ -10,7 +7,6 @@ function App() {
     <>
       <div>
           <Dashboard/>
-
       </div>
     </>
   )

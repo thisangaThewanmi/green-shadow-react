@@ -1,7 +1,7 @@
 .nav-card {
     @apply   text-black flex items-center justify-center bg-white ;
     border : 2px solid black;
-    width:15%;
+    width:95%;
     margin-right: 0;
 }
 
