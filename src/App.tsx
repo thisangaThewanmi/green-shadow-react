@@ -1,4 +1,5 @@
-import Dashboard from "@/Dashboard.tsx";
+// import Dashboard from "@/Dashboard.tsx";
+import Staff from "@/Staff.tsx";
 
 function App() {
 
@@ -6,7 +7,8 @@ function App() {
   return (
     <>
       <div>
-          <Dashboard/>
+         {/* <Dashboard/>*/}
+          <Staff/>
       </div>
     </>
   )
