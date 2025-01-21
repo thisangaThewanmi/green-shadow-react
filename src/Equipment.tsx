@@ -12,6 +12,7 @@ import {
     TableHeader,
     TableRow
 } from "@/components/ui/table.tsx";
+import EquipmentForm from "@/EquipmentForm.tsx";
 
 const invoices = [
     {
@@ -76,7 +77,7 @@ function Equipment(){
 
                 <main className="flex-1 p-4 space-y-4 w-full">
                     <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-                        <div className="aspect-video rounded-xl bg-gray-200"><Form/></div>
+                        <div className="aspect-video rounded-xl bg-gray-200"><EquipmentForm/></div>
                         <div className="aspect-video rounded-xl bg-gray-200">
                             <Table>
                                 <TableCaption>A list of your recent invoices.</TableCaption>
