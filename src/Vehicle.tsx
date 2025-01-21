@@ -12,6 +12,7 @@ import {
     TableHeader,
     TableRow
 } from "@/components/ui/table.tsx";
+import VehicleForm from "@/VehicleForm.tsx";
 
 const invoices = [
     {
@@ -76,8 +77,8 @@ function Vehicle(){
 
                     <main className="flex-1 p-4 space-y-4 w-full">
                         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-                            <div className="aspect-video rounded-xl bg-gray-200"><Form/></div>
-                            <div className="aspect-video rounded-xl bg-gray-200">
+                            <div className=" flex-[2]aspect-video rounded-xl bg-gray-200"><VehicleForm/></div>
+                            <div className=" flex-[1]aspect-video rounded-xl bg-gray-200">
                                 <Table>
                                     <TableCaption>A list of your recent invoices.</TableCaption>
                                     <TableHeader>
